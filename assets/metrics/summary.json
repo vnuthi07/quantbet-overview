@@ -1,0 +1,164 @@
+{
+ "wc2026_trades": {
+  "n": 26,
+  "wins": 13,
+  "losses": 13,
+  "staked": 64.48,
+  "pnl": 4.04,
+  "roi_on_staked": 0.0627,
+  "peak_cum_pnl": 8.02,
+  "low_cum_pnl": -8.62,
+  "max_drawdown_usd": 11.16,
+  "by_market": [
+   {
+    "market": "total_goals",
+    "n": 6,
+    "wins": 2,
+    "pnl": -5.77,
+    "stake": 13.95
+   },
+   {
+    "market": "btts",
+    "n": 4,
+    "wins": 1,
+    "pnl": -3.49,
+    "stake": 9.96
+   },
+   {
+    "market": "spread",
+    "n": 5,
+    "wins": 1,
+    "pnl": 1.16,
+    "stake": 6.75
+   },
+   {
+    "market": "advance",
+    "n": 11,
+    "wins": 9,
+    "pnl": 12.14,
+    "stake": 33.82
+   }
+  ],
+  "by_source_label": [
+   {
+    "source": "intuition",
+    "n": 12,
+    "wins": 4,
+    "pnl": -5.63,
+    "stake": 33.61
+   },
+   {
+    "source": "model",
+    "n": 3,
+    "wins": 2,
+    "pnl": 0.18,
+    "stake": 5.97
+   },
+   {
+    "source": "unlabeled",
+    "n": 11,
+    "wins": 7,
+    "pnl": 9.49,
+    "stake": 24.9
+   }
+  ],
+  "by_round": [
+   {
+    "round": "Round of 32",
+    "n": 11,
+    "wins": 4,
+    "pnl": -2.64,
+    "stake": 30.62
+   },
+   {
+    "round": "Round of 16",
+    "n": 4,
+    "wins": 2,
+    "pnl": -2.81,
+    "stake": 8.96
+   },
+   {
+    "round": "Quarterfinal",
+    "n": 8,
+    "wins": 6,
+    "pnl": 10.31,
+    "stake": 17.93
+   },
+   {
+    "round": "Semi-final",
+    "n": 3,
+    "wins": 1,
+    "pnl": -0.82,
+    "stake": 6.97
+   }
+  ]
+ },
+ "football_backtests": {
+  "uniform_log_loss": 1.0986,
+  "per_tournament": [
+   {
+    "tournament": "WC2018",
+    "n": 64,
+    "accuracy": 0.5625,
+    "log_loss": 0.9754,
+    "brier": 0.5781
+   },
+   {
+    "tournament": "WC2022",
+    "n": 64,
+    "accuracy": 0.4375,
+    "log_loss": 1.4996,
+    "brier": 0.6612
+   },
+   {
+    "tournament": "EURO2024",
+    "n": 51,
+    "accuracy": 0.4314,
+    "log_loss": 1.0479,
+    "brier": 0.6376
+   },
+   {
+    "tournament": "COPA2024",
+    "n": 32,
+    "accuracy": 0.5312,
+    "log_loss": 0.9169,
+    "brier": 0.5465
+   }
+  ],
+  "pooled": {
+   "n": 211,
+   "accuracy": 0.4882,
+   "log_loss": 1.1431,
+   "brier": 0.6129
+  },
+  "zero_probability_matches": [
+   {
+    "date": "2022-12-02",
+    "tournament": "WC2022",
+    "home_team": "Cameroon",
+    "away_team": "Brazil",
+    "result": "home",
+    "log_loss": 27.631
+   }
+  ],
+  "pooled_without_those_matches": {
+   "n": 210,
+   "accuracy": 0.4905,
+   "log_loss": 1.0169,
+   "brier": 0.6074
+  },
+  "per_tournament_without_those_matches": {
+   "COPA2024": 0.9169,
+   "EURO2024": 1.0479,
+   "WC2018": 0.9754,
+   "WC2022": 1.0849
+  }
+ },
+ "mma_walkforward": {
+  "years": 15,
+  "years_model_beats_glicko": 14,
+  "years_model_worse": [
+   2014
+  ]
+ }
+}
